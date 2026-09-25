@@ -1,0 +1,9 @@
+streamlit>=1.30.0
+pandas>=1.4.0
+numpy>=1.22.0
+scikit-learn>=1.1.0
+plotly>=5.10.0
+yfinance>=0.2.0
+openpyxl>=3.0.0
+pyxlsb>=1.0.1
+pyarrow>=8.0.0
