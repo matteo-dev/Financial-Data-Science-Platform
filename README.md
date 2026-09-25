@@ -22,17 +22,41 @@ Plateforme complète de finance quantitative développée en Python (Backend) et
    - Évaluation rigoureuse sur données de test (*Time Series Split*) à l'aide de la matrice de confusion et du score F1.
    - Backtest comparatif face à la stratégie de référence passive (*Buy & Hold*).
 
+## English Below 
+
+Comprehensive quantitative finance platform developed in Python (Backend) and Streamlit (Frontend). This project allows users to analyze a multi-asset investment universe, model market exposure, segment assets by risk profile, and evaluate active trading strategies using Machine Learning.
+
+## 📊 Key Features
+
+1. **Preprocessing & Feature Engineering:** 
+   - Cleaning and temporal alignment of time series (handling missing values via *Forward/Backward Fill*).
+   - Automatic currency standardization to Euros using dynamic exchange rates (`yfinance`).
+   - Calculation of log returns and advanced technical indicators (20-day Moving Average, 14-day RSI, Rolling Volatility, Ichimoku Tenkan).
+
+2. **Linear Regression Model (Alpha / Beta):**
+   - Evaluation of asset sensitivity against major benchmark indices (EuroStoxx 50, S&P 500, CAC 40).
+   - Variance analysis ($R^2$) and comparative visualization of actual vs. predicted returns.
+
+3. **Clustering Segmentation (K-Means):**
+   - Grouping assets based on their intrinsic financial characteristics (Annualized Return, Volatility, Max Drawdown, Beta).
+   - Data standardization and identification of archetype profiles (Defensive, Risky, etc.) to optimize portfolio diversification.
+
+4. **Classification & AI Strategy (Machine Learning):**
+   - Training supervised models (*Random Forest*, *Logistic Regression*, *SVM*) to predict future price directions.
+   - Rigorous evaluation on test data (*Time Series Split*) using confusion matrices and F1 scores.
+   - Comparative backtest against a passive benchmark strategy (*Buy & Hold*).
+   - 
 ---
 
 ## 🛠️ Installation et Lancement
 
-1. **Cloner le dépôt :**
+1. **Cloner le dépôt / Clone the reposit :**
    ```bash
    git clone [https://github.com/votre-nom-d-utilisateur/financial-datascience-platform.git](https://github.com/votre-nom-d-utilisateur/financial-datascience-platform.git)
    cd financial-datascience-platform
-2. **Installer les dépendances :**
+2. **Installer les dépendances / Install requirements :**
    ```bash
    pip install -r requirements.txt
-3. **Lancer le frontend :**
+3. **Lancer le frontend / Run frontend :**
    ```bash
    streamlit run dashboard.py
