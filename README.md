@@ -1,8 +1,8 @@
-# 🚀 Financial Data Science Platform
+# Financial Data Science Platform
 
 Plateforme complète de finance quantitative développée en Python (Backend) et Streamlit (Frontend). Ce projet permet d'analyser un univers d'investissement multi-actifs, de modéliser l'exposition au marché, de segmenter les actifs par profil de risque et d'évaluer des stratégies de trading actives par Machine Learning.
 
-## 📊 Fonctionnalités Clés
+## Fonctionnalités Clés
 
 1. **Prétraitement & Feature Engineering :** 
    - Nettoyage et alignement temporel des séries temporelles (gestion des trous via *Forward/Backward Fill*).
@@ -26,7 +26,7 @@ Plateforme complète de finance quantitative développée en Python (Backend) et
 
 Comprehensive quantitative finance platform developed in Python (Backend) and Streamlit (Frontend). This project allows users to analyze a multi-asset investment universe, model market exposure, segment assets by risk profile, and evaluate active trading strategies using Machine Learning.
 
-## 📊 Key Features
+## Key Features
 
 1. **Preprocessing & Feature Engineering:** 
    - Cleaning and temporal alignment of time series (handling missing values via *Forward/Backward Fill*).
@@ -48,7 +48,7 @@ Comprehensive quantitative finance platform developed in Python (Backend) and St
    - 
 ---
 
-## 🛠️ Installation et Lancement
+## Installation et Lancement
 
 1. **Cloner le dépôt / Clone the reposit :**
    ```bash
